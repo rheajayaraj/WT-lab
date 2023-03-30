@@ -1,0 +1,117 @@
+#grad1 {
+  height: 200px;
+  background-color: lightpink; 
+  background-image: linear-gradient(to right, lightpink , peachpuff);
+}
+#grad2{
+  height: 200px;
+  background-image: url(floral\ background.jpeg)
+}
+#grad3 {
+  height: 200px;
+  background-color: peachpuff; 
+  background-image: linear-gradient(to right, peachpuff , lightpink);
+}
+h1{
+  font-family:'Garamond';
+  font-size: 50px;
+  color: hotpink;
+  text-align: center;
+}
+h2{
+  font-family:'Helvetica';
+  font-size: 35px;
+  color: palevioletred;
+  text-align: center;
+}
+p{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: palegoldenrod;
+}
+a{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: palevioletred;
+  font-weight: bold;
+}
+figure :link {
+  color: palevioletred;
+  text-decoration: none;
+}
+figure :hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+table, th, td {
+  border:1px solid plum;
+}
+th{
+  font-family:'Garamond';
+  font-size: 30px;
+  color: purple;
+}
+td{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: rgb(120, 90, 120);
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure{
+  text-align: center;
+}
+img:hover
+{
+  opacity: 0.8;
+}
+.block {
+  background-color: pink;
+  width: 1380px;
+  border: 5px solid goldenrod;
+  padding: 30px;
+  margin: 20px;
+}
+.topnav {
+  background-color: goldenrod;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  font-family: Helvetica;
+  color: palevioletred;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: peachpuff;
+}
+iframe {
+  margin:auto;
+  display:block;
+}
+ul.a {
+  list-style-type: square;
+  color: palevioletred;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+ol.c {
+  list-style-type: upper-roman;
+  color: darkmagenta;
+  font-family: Helvetica;
+  font-size: 25px;
+}

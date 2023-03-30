@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"	crossorigin="anonymous">
+    <script src="Validations.js"></script>
+    <title>Planarize - Sign Up</title>
+</head>
+<body>
+<div class='bold-line'></div>
+<div class='container'>
+  <div class='window'>
+    <div class='overlay'></div>
+    <div class='content'>
+      <div class='welcome'>Hello There!</div>
+      <div class='subtitle'>Enjoy Planarize more smoothly by making an account.</div>
+        <form onsubmit="return validate()" action="SignUp.php" method="post">
+            <div class='input-fields'>
+                <input id='name' name="name" type='text' placeholder='Username' class='input-line full-width' autocomplete="off" required></input>
+                <input id='email' name ="email" type='email' placeholder='Email' class='input-line full-width' autocomplete="off" required></input>
+                <input id="psw" name="psw" type='password' placeholder='Password' class='input-line full-width' autocomplete="off" required></input>
+            </div>
+            <br><br>
+            <div><input class="ghost-round full-width" type="submit" value="Create Account"></div>
+        </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
